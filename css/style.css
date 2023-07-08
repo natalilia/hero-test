@@ -14,10 +14,40 @@
       background-color: #A1C487;
     }
     
-    .img-list {
+    
+    .circle-mix{
       display: flex;
+      position: relative;
+      top: 0;
+      left: 0;
     }
+    /*---
+    .img-1{
+      position: relative;
+      top: 0;
+      left: 0;
+      border-radius: 40px;
+      border: 1px solid #FFF; 
+      z-index: 3;
+    }
+    .img-2{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      border-radius: 40px;
+      border: 1px solid #FFF; 
+
+    }
+    .img-3{ position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      border-radius: 40px;
+      border: 1px solid #FFF; }
+      --*/
     .circle {
+     
     }
     .circle-text {
     }
