@@ -222,3 +222,28 @@ letter-spacing: -0.56px;
     }
     .link-item {
     }
+    .big-girl{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      
+      padding-left: 49px;
+      padding-right: 48px;
+    }
+    .big-girl-img{
+      position: relative;
+      max-height: 228px;
+      z-index: 1;
+    
+    }
+    .circle{
+      position: absolute;
+      width: 219px;
+height: 294px;
+transform: rotate(-104.004deg);
+border-radius: 500px;
+background: #FFF;
+bottom: -21px;
+flex-shrink: 0;
+
+    }
