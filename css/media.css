@@ -5,10 +5,17 @@
     @media screen and (min-width: 768px){
         .container{
             max-width: 768px;
-        }}
+        }
+        .big-girl-img img{
+            min-width: 389px;
+        }
+    }
         @media screen and (min-width: 1280px){
             .container{
                 max-width: 1280px;
                 padding-left: 15px;
                 padding-right: 15px;
-            }}
+                
+            }
+        
+        }
