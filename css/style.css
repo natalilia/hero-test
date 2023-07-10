@@ -5,6 +5,11 @@
 .link{
     text-decoration: none;
   }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
   .hero{
     background-color: #A1C487;
@@ -143,7 +148,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 10px;
+    top: -5px;
     left: 25px;
     transform: rotate(-344deg);
 }
