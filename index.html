@@ -34,7 +34,24 @@
         <div class="big-girl">
             <div class="hero-img-bacg"></div>
             <div class="hero-img-wrap">
-        <img class="big-girl-img" src="./images/girl-with-veget.png" alt="girl smilling with vegetables" width=""230px>
+                <picture class="big-girl-img">
+                <source
+                  srcset="./images/hero-main-desk-1x.png, ./images/hero-main-desk-2x.png"
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="./images/hero-main-tab-1x.png,
+                  ./images/hero-main-tab-2x.png"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/hero-main-img.png,
+                  ./images/hero-main-img-2x.png"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/hero-main-img.png" alt="girl smilling with vegetables" width="230px" height="228px">
+              </picture>
+        
     </div>
         </div>
         <ul class="list link-list">
